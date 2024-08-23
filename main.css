@@ -7,24 +7,25 @@
 }
 
 .mockup-1-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 600px;
+  width: 580px;
   padding: 100px 80px;
   background-color: #162ae3;
 }
 .mockup-1-container .inputs-container {
-  width: 420px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
 }
 
-.mockup-1-container .name-input,
-.mockup-1-container .email-input,
-.mockup-1-container .phone-number-input {
-  border: none;
-  background-color: #fff;
+.mockup-1-container input {
   padding: 12px 15px;
+  border: none;
   border-radius: 6px;
+  background-color: #fff;
+}
+
+input:nth-child(3) {
+  grid-column: 1 / span 2;
 }
 
 .mockup-1-container .name-input::placeholder,
@@ -39,15 +40,6 @@
 }
 .mockup-1-container .phone-number-input {
   width: 420px;
-  margin-bottom: 60px;
-}
-
-.mockup-1-container .name-email-input-container {
-  display: flex;
-  flex-direction: row;
-  width: 420px;
-  justify-content: space-between;
-  margin-bottom: 16px;
 }
 
 .mockup-1-container .submit-button {
@@ -59,4 +51,8 @@
   font-weight: bold;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   align-self: flex-start;
+  margin-top: 60px;
+}
+
+.mockup-2-container {
 }
