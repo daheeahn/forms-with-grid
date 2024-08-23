@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.mockup-1-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  padding: 100px 80px;
+  background-color: #162ae3;
+}
+.mockup-1-container .inputs-container {
+  width: 420px;
+}
+
+.mockup-1-container .name-input,
+.mockup-1-container .email-input,
+.mockup-1-container .phone-number-input {
+  border: none;
+  background-color: #fff;
+  padding: 12px 15px;
+  border-radius: 6px;
+}
+
+.mockup-1-container .name-input::placeholder,
+.mockup-1-container .email-input::placeholder,
+.mockup-1-container .phone-number-input::placeholder {
+  color: #9ca0aa;
+}
+
+.mockup-1-container .name-input,
+.mockup-1-container .email-input {
+  width: 200px;
+}
+.mockup-1-container .phone-number-input {
+  width: 420px;
+  margin-bottom: 60px;
+}
+
+.mockup-1-container .name-email-input-container {
+  display: flex;
+  flex-direction: row;
+  width: 420px;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.mockup-1-container .submit-button {
+  border: none;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 15px 35px;
+  color: #162ae3;
+  font-weight: bold;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  align-self: flex-start;
+}
