@@ -223,3 +223,72 @@
   color: #fff;
   background-color: #3b82f6;
 }
+
+.mockup-4-container {
+  padding: 25px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 680px;
+}
+.mockup-4-container .header-container {
+  margin-bottom: 20px;
+}
+.mockup-4-container .form-container {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: auto;
+  gap: 20px 30px;
+}
+.mockup-4-container .form-item:nth-child(5) {
+  grid-column: span 2;
+}
+.mockup-4-container label {
+  margin-bottom: 5px;
+}
+.mockup-4-container .form-item {
+  display: flex;
+  flex-direction: column;
+}
+.mockup-4-container .form-item input {
+  padding: 4px 10px;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+.mockup-4-container .form-item input::placeholder {
+  color: #787676;
+}
+.mockup-4-container .form-item textarea {
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 10px;
+  min-height: 100px;
+}
+.mockup-4-container .form-item select {
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 3px 0px;
+  color: #211e1e;
+}
+
+.mockup-4-container #upload-cv {
+  padding: 1px;
+}
+.mockup-4-container .submit-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.mockup-4-container button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 140px;
+  height: 35px;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #1b52df;
+  font-size: 16px;
+}
