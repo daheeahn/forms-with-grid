@@ -126,3 +126,67 @@
   width: 25px;
   height: 25px;
 }
+
+.mockup-3-container {
+  width: 880px;
+  padding: 50px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.mockup-3-container h2 {
+  margin-bottom: 8px;
+}
+.mockup-3-container .header-container {
+  margin-bottom: 30px;
+}
+.mockup-3-container .form-container {
+  display: grid;
+  grid-template-columns: 380px 380px;
+  grid-template-rows: auto;
+  gap: 15px;
+}
+
+.mockup-3-container .form-item {
+  display: flex;
+  flex-direction: column;
+}
+.mockup-3-container .form-item:nth-child(4) {
+  grid-row: span 2;
+}
+.mockup-3-container .form-item label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.mockup-3-container .form-item > input {
+  border: none;
+  padding: 12px;
+  background-color: #eef4ff;
+  border-radius: 5px;
+}
+.mockup-3-container .form-item input::placeholder {
+  color: #c8c8c8;
+}
+.mockup-3-container .form-item textarea {
+  background-color: #eef4ff;
+  border-radius: 5px;
+  height: 100%;
+  padding: 12px;
+  border: none;
+}
+.mockup-3-container .form-item .phone-number-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #eef4ff;
+  border-radius: 5px;
+  padding: 12px;
+}
+.mockup-3-container .form-item select {
+  border: none;
+  background-color: #eef4ff;
+}
+
+.mockup-3-container .form-item .phone-number-container > input {
+  border: none;
+  background-color: #eef4ff;
+  margin-left: 10px;
+}
