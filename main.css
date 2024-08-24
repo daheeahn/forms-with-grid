@@ -180,7 +180,7 @@
   border-radius: 5px;
   padding: 12px;
 }
-.mockup-3-container .form-item select {
+.mockup-3-container .form-item .phone-number-container > select {
   border: none;
   background-color: #eef4ff;
 }
@@ -189,4 +189,17 @@
   border: none;
   background-color: #eef4ff;
   margin-left: 10px;
+}
+
+.mockup-3-container .form-item .available-date-container {
+  background-color: #eef4ff;
+  border-radius: 5px;
+  padding: 12px;
+  width: 100%;
+}
+
+.mockup-3-container .form-item .available-date-container > select {
+  border: none;
+  width: 100%;
+  background-color: #eef4ff;
 }
